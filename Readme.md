@@ -15,7 +15,7 @@
 var behind = require('behind-cursor');
 
 editor.oninput = function() {
-  if (~behind('sloths')) console.log('you just typed "sloth"!');
+  if (~behind('sloth')) console.log('you just typed "sloth"!');
 };
 ```
 

@@ -1,0 +1,15 @@
+{
+  "name": "behind-cursor",
+  "repo": "component/behind-cursor",
+  "description": "check text behind the cursor",
+  "version": "0.0.1",
+  "keywords": [],
+  "development": {
+    "component/per-frame": "*"
+  },
+  "license": "MIT",
+  "main": "index.js",
+  "scripts": [
+    "index.js"
+  ]
+}

@@ -1,7 +1,7 @@
 
 # behind-cursor
 
-  Watch for certain keywords as you type
+  watch for certain keywords as you type.
 
 ## Installation
 
@@ -21,7 +21,7 @@ editor.oninput = function() {
 
 ## API
 
-### behind(str|regexp, [selection])
+### `behind(str|regexp, [selection])`
 
 Watch for a string `str` or regular expression `regexp` as you type. If you're checking a bunch of expressions, you may want to pass a `selection` so you're not running `window.getSelection()` a bunch of times. If a match is found, the starting `offset` is returned, otherwise `-1`.
 
